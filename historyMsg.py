@@ -30,7 +30,6 @@ FILE = 'https://slack.com/api/conversations.history?token=' +TOKEN+ \
        '&oldest=' + OLDEST + \
        '&pretty=1'
 
-print(FILE)
 #將此頁面的HTML GET下來
 r = requests.get(FILE)
 #印出HTML
